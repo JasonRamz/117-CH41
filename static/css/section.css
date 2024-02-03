@@ -75,7 +75,7 @@ a p:nth-child(4), .experience-card p:nth-child(4){
 .form-section{
     height:100%;
 }
-#projectForm{
+#projectForm, #emailForm{
     display: flex;
     flex-direction: column;
     height: 35rem;

@@ -20,7 +20,7 @@
         <!-- left side -->
         <div class="logo center">
             <a href="{% url 'about' %}">
-                <h2>my name</h2>
+                <h2>Jason Ramirez</h2>
             </a>
         </div>
         <!-- right side -->
@@ -51,12 +51,12 @@
 
     <footer>
         <a href="">
-            <h2>My name</h2>
+            <h2>Jason Ramirez</h2>
         </a>
             <nav class="nav-foorter center">
                 <a href="{% url 'about' %}">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Experience</a>
+                <a href="{% url 'projects_list' %}">Projects</a>
+                <a href="{% url 'experience_list' %}">Experience</a>
                 <a href="{% url 'contact' %}">Contact</a>
             </nav>
         </a>
